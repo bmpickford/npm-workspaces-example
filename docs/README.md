@@ -1,3 +1,23 @@
-# @npmworkspacesdemo docs
+npmworkspacesexample / [Modules](modules.md)
 
-Docs site. Built with Astro default docs template: https://github.com/withastro/astro/tree/main/examples/docs
+# npm 7+ workspaces monorepo example
+
+A simple monorepo template using es modules and npm workspaces
+
+## Structure
+
+## Tech
+ * npm workspaces
+ * eslint
+ * mocha/chai
+ * husky
+ * vite for example
+ * astro for docs
+
+## How to
+
+#### Add another package
+
+#### Use a framework like react for one of the workspaces
+
+#### Publish

@@ -10,7 +10,7 @@ A simple monorepo template using es modules and npm workspaces
  * mocha/chai
  * husky
  * vite for example
- * astro for docs
+ * typedoc for docs page and .d.ts files
 
 ## How to
 
@@ -19,3 +19,5 @@ A simple monorepo template using es modules and npm workspaces
 #### Use a framework like react for one of the workspaces
 
 #### Publish
+
+#### Use Typescript
