@@ -15,7 +15,7 @@ A simple monorepo template using es modules and npm workspaces
  * [mocha](https://mochajs.org/)/[chai](https://www.chaijs.com/)
  * [husky](https://typicode.github.io/husky/#/)
  * [vite](https://vitejs.dev/) for building / dev server for the example
- * [typedoc](https://typedoc.org/) for docs. See [example](https://bmpickford.github.io/npm-workspaces-example/) output
+ * [typedoc](https://typedoc.org/) for docs. See [example](https://bmpickford.github.io/npm-workspaces-example/modules.html) output
 
 ## How to
 
