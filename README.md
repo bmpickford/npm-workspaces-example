@@ -12,13 +12,13 @@ A simple monorepo template using es modules and npm workspaces. It contains 3 ve
 ### Packages
 A few different packages have been used to test and showcase different options.
 
-#### 1_one
+#### names
 List of names using default export
 
-#### 2_two
-Exported function for random name generator
+#### function
+Exported function for random name generator as a named export
 
-#### 3_three
+#### element
 [Lit](https://lit.dev/) Web Component
 
 ## Dependencies
