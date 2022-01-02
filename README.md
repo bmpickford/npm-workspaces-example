@@ -1,6 +1,6 @@
 # npm 7+ workspaces monorepo example
 
-A simple monorepo template using es modules and npm workspaces
+A simple monorepo template using es modules and npm workspaces. It contains 3 very simple modules, one containing a list of names, one exporting a function to select a random item from those names, and one containing a web component that displays that name.
 
 ## Structure
 ```bash
@@ -8,6 +8,18 @@ A simple monorepo template using es modules and npm workspaces
 |-docs/ # Auto generated docs from typedoc
 |-packages/ # Library specific sub packages
 ```
+
+### Packages
+A few different packages have been used to test and showcase different options.
+
+#### 1_one
+List of names using default export
+
+#### 2_two
+Exported function for random name generator
+
+#### 3_three
+[Lit](https://lit.dev/) Web Component
 
 ## Dependencies
  * [npm workspaces](https://docs.npmjs.com/cli/v7/using-npm/workspaces/)

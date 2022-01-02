@@ -2,13 +2,33 @@
 <a href="#npm-7-workspaces-monorepo-example" id="npm-7-workspaces-monorepo-example" style="color: inherit; text-decoration: none;">
   <h1>npm 7+ workspaces monorepo example</h1>
 </a>
-<p>A simple monorepo template using es modules and npm workspaces</p>
+<p>A simple monorepo template using es modules and npm workspaces. It contains 3 very simple modules, one containing a list of names, one exporting a function to select a random item from those names, and one containing a web component that displays that name.</p>
 
 <a href="#structure" id="structure" style="color: inherit; text-decoration: none;">
   <h2>Structure</h2>
 </a>
 <pre><code class="language-bash"><span class="hl-0">|-example/ </span><span class="hl-1"># Directory containing example project</span><br/><span class="hl-0">|-docs/ </span><span class="hl-1"># Auto generated docs from typedoc</span><br/><span class="hl-0">|-packages/ </span><span class="hl-1"># Library specific sub packages</span>
 </code></pre>
+
+<a href="#packages" id="packages" style="color: inherit; text-decoration: none;">
+  <h3>Packages</h3>
+</a>
+<p>A few different packages have been used to test and showcase different options.</p>
+
+<a href="#1_one" id="1_one" style="color: inherit; text-decoration: none;">
+  <h4>1_one</h4>
+</a>
+<p>List of names using default export</p>
+
+<a href="#2_two" id="2_two" style="color: inherit; text-decoration: none;">
+  <h4>2_two</h4>
+</a>
+<p>Exported function for random name generator</p>
+
+<a href="#3_three" id="3_three" style="color: inherit; text-decoration: none;">
+  <h4>3_three</h4>
+</a>
+<p><a href="https://lit.dev/">Lit</a> Web Component</p>
 
 <a href="#dependencies" id="dependencies" style="color: inherit; text-decoration: none;">
   <h2>Dependencies</h2>
@@ -19,7 +39,7 @@
 <li><a href="https://mochajs.org/">mocha</a>/<a href="https://www.chaijs.com/">chai</a></li>
 <li><a href="https://typicode.github.io/husky/#/">husky</a></li>
 <li><a href="https://vitejs.dev/">vite</a> for building / dev server for the example</li>
-<li><a href="https://typedoc.org/">typedoc</a> for docs</li>
+<li><a href="https://typedoc.org/">typedoc</a> for docs. See <a href="https://bmpickford.github.io/npm-workspaces-example/modules.html">example</a> output</li>
 </ul>
 
 <a href="#how-to" id="how-to" style="color: inherit; text-decoration: none;">
@@ -46,4 +66,4 @@
   <h4>Use Typescript</h4>
 </a>
 <p>Create your tsconfig and source files, then update the <code>package.json</code> <code>&quot;main&quot;</code> and <code>&quot;types&quot;</code> fields, and optionally add <code>&quot;files&quot;</code> if the compiled js is outputted in another directory.</p>
-</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Modules</a></li><li class=" tsd-kind-module"><a href="modules/one.html">one</a></li><li class=" tsd-kind-module"><a href="modules/three.html">three</a></li><li class=" tsd-kind-module"><a href="modules/two.html">two</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Legend</h2><div class="tsd-legend-group"><ul class="tsd-legend"><li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li></ul></div><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>
+</div></div><div class="col-4 col-menu menu-sticky-wrap menu-highlight"><nav class="tsd-navigation primary"><ul><li class="current"><a href="modules.html">Modules</a></li><li class=" tsd-kind-module"><a href="modules/element.html">element</a></li><li class=" tsd-kind-module"><a href="modules/names.html">names</a></li><li class=" tsd-kind-module"><a href="modules/two.html">two</a></li></ul></nav></div></div></div><footer class="with-border-bottom"><div class="container"><h2>Legend</h2><div class="tsd-legend-group"><ul class="tsd-legend"><li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li><li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li></ul><ul class="tsd-legend"><li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li></ul></div><h2>Settings</h2><p>Theme <select id="theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></p></div></footer><div class="container tsd-generator"><p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></div><div class="overlay"></div><script src="assets/main.js"></script></body></html>

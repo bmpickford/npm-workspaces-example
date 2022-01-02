@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script type="module" src="./index.js" defer></script>
+    <meta charset="UTF-8">
+
+    <!-- Module 3 - Lit WC -->
+    <script type="module">
+        import names from '@npmworkspacesexample/names';
+        import { getRandomItemFromArray } from '@npmworkspacesexample/functions';
+        import '@npmworkspacesexample/element';
+
+        const wc = document.querySelector('npmworkspaces-lit-example');
+        wc.setAttribute('name', getRandomItemFromArray(names))
+    </script>
 </head>
 <body>
     <div id="root">
-        <div id="modules">
-            <h2>Default exports</h2>
-        </div>
-        <div id="named">
-            <h2>Named exports</h2>
-        </div>
+        <npmworkspaces-lit-example name="World"></npmworkspaces-lit-example>
     </div>
 </body>
 </html>

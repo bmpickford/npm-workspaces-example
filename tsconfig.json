@@ -1,7 +1,7 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es2019",
     "module": "esnext",
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -12,7 +12,11 @@
   "include": ["packages"],
   "exclude": ["node_modules", "dist", "./**/*.test.js", "./**/*.d.ts"],
   "typedocOptions": {
-    "entryPoints": ["packages/1_one/index.js", "packages/2_two/index.js", "packages/3_three/index.js"],
+    "entryPoints": [
+      "packages/element/index.js",
+      "packages/names/index.js",
+      "packages/functions/index.js"
+    ],
     "out": "docs",
     "emit": "both"
   }

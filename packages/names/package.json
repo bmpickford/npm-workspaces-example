@@ -1,7 +1,7 @@
 {
-  "name": "@npmworkspacesexample/one",
+  "name": "@npmworkspacesexample/names",
   "version": "0.0.1",
-  "description": "Package one",
+  "description": "List of names",
   "author": "Benjamin Pickford <b.mpickford@outlook.com> (https://benpickford.me)",
   "keywords": [],
   "license": "MIT",
