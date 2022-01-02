@@ -9,7 +9,8 @@
     "example"
   ],
   "scripts": {
-    "build": "npm run clean && npm run build --ws --if-present",
+    "build": "npm run clean && npm run types && npm run build --ws --if-present",
+    "types": "tsc",
     "clean": "npm exec -c 'rimraf dist/' --ws",
     "test": "npm run test --ws --if-present",
     "lint": "eslint .",
@@ -26,6 +27,7 @@
     "mocha": "^9.1.3",
     "rimraf": "^3.0.2",
     "size-limit": "^7.0.5",
+    "typescript": "^4.5.4",
     "vite": "^2.7.2"
   }
 }

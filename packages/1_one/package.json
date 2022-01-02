@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "module": "index.js",
-  "files": ["index.js"],
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha ./**/*.test.js"
   },
