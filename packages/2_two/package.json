@@ -6,6 +6,7 @@
   "keywords": [],
   "license": "MIT",
   "type": "module",
+  "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
   "typedocMain": "./index.js",
@@ -19,10 +20,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bmpickford/npmworkspacesexample"
+    "url": "https://github.com/bmpickford/npm-workspaces-example"
   },
   "bugs": {
-    "url": "https://github.com/bmpickford/npmworkspacesexample/issues"
+    "url": "https://github.com/bmpickford/npm-workspaces-example/issues"
   },
   "engines": {
     "node": ">=16",

@@ -10,7 +10,7 @@
   "scripts": {
     "build": "npm run clean && npm run types && npm run build --ws --if-present",
     "types": "tsc",
-    "doc": "npm run types && typedoc",
+    "doc": "typedoc",
     "clean": "npm exec -c 'rimraf dist/' --ws",
     "test": "npm run test --ws --if-present",
     "lint": "eslint .",
@@ -27,7 +27,6 @@
     "rimraf": "^3.0.2",
     "size-limit": "^7.0.5",
     "typedoc": "^0.22.10",
-    "typedoc-plugin-markdown": "^3.11.8",
     "typescript": "^4.5.4",
     "vite": "^2.7.2"
   }

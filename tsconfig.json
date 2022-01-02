@@ -7,12 +7,14 @@
     "skipLibCheck": true,
     "allowJs": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": true
   },
   "include": ["packages"],
   "exclude": ["node_modules", "dist", "./**/*.test.js", "./**/*.d.ts"],
   "typedocOptions": {
     "entryPoints": ["packages/1_one/index.js", "packages/2_two/index.js", "packages/3_three/index.js"],
-    "out": "docs"
+    "out": "docs",
+    "emit": "both",
+    "gitRemote": "https://github.com/bmpickford/npm-workspaces-example"
   }
 }
