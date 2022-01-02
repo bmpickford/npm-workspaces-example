@@ -1,0 +1,30 @@
+{
+  "name": "@npmworkspacesexample/one",
+  "version": "0.0.1",
+  "description": "Package one",
+  "author": "Benjamin Pickford <b.mpickford@outlook.com> (https://benpickford.me)",
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "module": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "test": "mocha ./**/*.test.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmpickford/npmworkspacesexample"
+  },
+  "bugs": {
+    "url": "https://github.com/bmpickford/npmworkspacesexample/issues"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=7"
+  }
+}
